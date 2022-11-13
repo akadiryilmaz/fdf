@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/akadiryilmaz/Desktop/42_All_Project/fdf'
+make -C mlx
+gcc -I./mlx -framework OpenGL -framework AppKit fdf.c rotate.c control_map.c draw.c utils/get_next_line.c utils/get_next_line_utils.c utils/ft_strdup.c utils/ft_strjoin.c utils/ft_strlen.c utils/ft_split.c utils/ft_atoi.c utils/ft_printf.c utils/ft_itoa.c -L./mlx -lmlx -o fdf
+echo mlx is compiled successfully
+echo fdf is created successfully
+make: Leaving directory `/Users/akadiryilmaz/Desktop/42_All_Project/fdf'
+ 

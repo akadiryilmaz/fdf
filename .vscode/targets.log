@@ -1,0 +1,383 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Sun Nov 13 14:07:01 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/akadiryilmaz/Desktop/42_All_Project/fdf
+# makefile
+SHELL = /bin/sh
+# makefile (from `Makefile', line 2)
+RM = rm -f
+# environment
+VSCODE_NLS_CONFIG = {"locale":"tr","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 3)
+GCC = gcc
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.oiKc08UDi1/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /Users/akadiryilmaz/Desktop/42_All_Project/fdf
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/akadiryilmaz
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/akadiryilmaz/Library/Application Support/Code/CachedData/6261075646f055b99068d3688932416f2346dd3b
+# environment
+LOGNAME = akadiryilmaz
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `Makefile', line 1)
+SRCS = fdf.c rotate.c control_map.c draw.c utils/get_next_line.c utils/get_next_line_utils.c utils/ft_strdup.c utils/ft_strjoin.c utils/ft_strlen.c utils/ft_split.c utils/ft_atoi.c utils/ft_printf.c utils/ft_itoa.c
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = akadiryilmaz
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 4)
+NAME = fdf
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/lg/ldmw1fn52t37rv9cg2_mfv4c0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/akadiryilmaz/Library/Application Support/Code/1.73.1-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.2345021.2345027
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x23:0x18
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 81616
+# variable set hash-table stats:
+# Load=61/1024=6%, Rehash=0, Collisions=1/93=1%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777233, inode 2385573): 13 files, no impossibilities.
+
+# 13 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+utils/ft_itoa.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-12 20:30:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/ft_strlen.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-12 20:32:06
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+all: fdf.c rotate.c control_map.c draw.c utils/get_next_line.c utils/get_next_line_utils.c utils/ft_strdup.c utils/ft_strjoin.c utils/ft_strlen.c utils/ft_split.c utils/ft_atoi.c utils/ft_printf.c utils/ft_itoa.c fdf
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+.PHONY: all clean fclean re
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+utils/ft_strjoin.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-12 20:31:50
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/ft_split.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-12 20:31:14
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/ft_printf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-12 20:30:35
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+draw.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-12 20:20:49
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-10-20 15:55:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+fdf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-12 20:21:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/get_next_line_utils.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-12 20:32:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 19):
+	@make clean -C mlx
+	
+
+# Not a target:
+rotate.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-12 20:21:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 22):
+	make
+	
+
+# Not a target:
+utils/ft_strdup.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-12 20:31:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 15):
+	@$(RM) $(NAME)
+	@echo fdf is removed successfully
+	
+
+# Not a target:
+utils/get_next_line.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-12 20:32:22
+#  File has been updated.
+ 
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/ft_atoi.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-12 20:30:02
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+control_map.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-12 20:21:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+fdf: fdf.c rotate.c control_map.c draw.c utils/get_next_line.c utils/get_next_line_utils.c utils/ft_strdup.c utils/ft_strjoin.c utils/ft_strlen.c utils/ft_split.c utils/ft_atoi.c utils/ft_printf.c utils/ft_itoa.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := fdf
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := fdf.c rotate.c control_map.c draw.c utils/get_next_line.c utils/get_next_line_utils.c utils/ft_strdup.c utils/ft_strjoin.c utils/ft_strlen.c utils/ft_split.c utils/ft_atoi.c utils/ft_printf.c utils/ft_itoa.c
+# automatic
+# | := 
+# automatic
+# < := fdf.c
+# automatic
+# ^ := fdf.c rotate.c control_map.c draw.c utils/get_next_line.c utils/get_next_line_utils.c utils/ft_strdup.c utils/ft_strjoin.c utils/ft_strlen.c utils/ft_split.c utils/ft_atoi.c utils/ft_printf.c utils/ft_itoa.c
+# automatic
+# ? := fdf.c rotate.c control_map.c draw.c utils/get_next_line.c utils/get_next_line_utils.c utils/ft_strdup.c utils/ft_strjoin.c utils/ft_strlen.c utils/ft_split.c utils/ft_atoi.c utils/ft_printf.c utils/ft_itoa.c
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/13=8%
+#  commands to execute (from `Makefile', line 10):
+	@make -C mlx
+	@$(GCC) -I./mlx -framework OpenGL -framework AppKit $(SRCS) -L./mlx -lmlx -o $(NAME)
+	@echo mlx is compiled successfully
+	@echo fdf is created successfully
+	
+
+# files hash-table stats:
+# Load=22/1024=2%, Rehash=0, Collisions=1/69=1%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Nov 13 14:07:01 2022
+
+ 
